@@ -17,11 +17,7 @@ library(caTools)
 library(ggplot2)
 
 #Importing the data and getting an overview
-
-nycprop=read.csv('E:\\3rd year 2nd semester\\ST3082-statistical learning\\2nd project\\nyc-rolling-sales.csv')
-#Importing the data and getting an overview
-
-nycprop=read.csv('E:\\3rd year 2nd semester\\ST3082-statistical learning\\2nd project\\nyc-rolling-sales.csv')
+nycprop=read.csv('nyc-rolling-sales.csv')
 #how many rows and columns?
 cat(nrow(nycprop), "rows and", ncol(nycprop), "columns\n")
 
